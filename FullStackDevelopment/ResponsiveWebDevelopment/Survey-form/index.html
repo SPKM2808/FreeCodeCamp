@@ -6,12 +6,98 @@
     <title>Survey-Form</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/styles.css'>
-    <script src='main.js'></script>
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
 </head>
 <body>
     <header>
         <h1 id = "title" >Please rate my website!!!</h1>
-        
+        <p id = "description" >
+            Thank you for taking time to help me improve my platform..
+        </p>
     </header>
+    <div id = "container">
+    <form id = "survey-form"  action="">
+
+        <section>
+            <label id = "name-label" for="name">Name</label>
+            <br>
+            <input type="name" id = "name" name ="name" placeholder="Enter your name" required>
+            <br>
+        </section>
+
+        <section>
+            <label id = "email-label" for="email">Email</label>
+            <br>
+            <input type="email" id = "email" name ="email" placeholder="Enter your email" required>
+        </section>
+        
+        <section>
+            <label id = "number-label" for="number">Age (Optional)</label>
+            <br>
+            <input type="number" id = "number" name ="number" placeholder="Age" max="100" min = 10>
+
+        </section>
+
+        <section>
+            <label for="dropdown">Which option best describes your current role?</label>
+            <br>
+            <select name="dropdown" id="dropdown" required>
+                <option value = None disabled> Select an option</option>
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Full time learner">Full time learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+
+            </select>
+        </section>
+
+        <section>
+            <label for="radio">Would you recommend MY Project to a friend?</label>
+            <br>
+            <input type="radio" name="radio" value="Definately" id = "definately">
+            <label for="definately">Definately</label>
+            <br>
+            <input type="radio" name="radio" value="Maybe" id = "maybe">
+            <label for="maybe">Maybe</label>
+            <br>
+            <input type="radio" name="radio" value="Not sure" id = "notsure">
+            <label for="notsure">Not sure</label>
+        </section>
+
+        <section>
+            <p>What would you like to see improved? <label>(Check all that apply)</label></p>
+            <input type="checkbox" name="checker" id="1" value = "Front-end Projects">
+            <label for="1">Front-end Projects</label>
+            <br>
+            <input type="checkbox" name="checker" id="2" value = "Back-end Projects">
+            <label for="2">Back-end Projects</label>
+            <br>            
+            <input type="checkbox" name="checker" id="3" value = "Data Visualisation">
+            <label for="3">Data Visualisation</label>
+    
+            <br>
+            <input type="checkbox" name="checker" id="4" value = "Challenges">
+            <label for="4">Challenges</label>
+    
+            <br>
+            <input type="checkbox" name="checker" id="5" value = "Vedios">
+            <label for="5">Vedios</label>
+        </section>
+
+        <section>
+            <label for="comments">Any comments or suggestions?</label>
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder = "Enter your comments here...." ></textarea>
+        </section>
+
+        <section>
+            <button type="submit" id = "submit" >Submit</button>
+        </section>
+
+    </div>
+
+
+    </form>
 </body>
 </html>

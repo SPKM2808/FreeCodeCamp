@@ -1,0 +1,85 @@
+body{
+    background-image: url(https://mfiles.alphacoders.com/766/766380.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 1%;
+}
+header{
+    background-color: rgba(86, 141, 245, 0.667);
+    text-align: center;
+    padding: 4%;
+    border-radius: 5px;
+    
+}
+
+#title{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#description{
+    line-height: 90%;
+    font-weight: 500;
+    font-style: italic;
+    font-size: x-large;
+}
+
+#container{
+    background : linear-gradient(#6638bbc2,rgba(37, 32, 100, 0.801));
+    border-radius: 5px;
+}
+
+#survey-form{
+    background : linear-gradient(#032450f1,rgba(17, 15, 46, 0.979));
+    font-size: x-large;
+    padding: 4%;
+    margin : auto;
+    width: 40%;
+    height : 90%;
+    border-radius: 7px;
+}
+section{
+    margin-bottom: 4%;
+}
+
+#name,#email,#number,#dropdown{
+    width : 100%;
+    padding: 5px;
+    font-size: 21px;
+    border-radius: 4px;
+}
+
+label{
+    line-height: 40px;
+}
+#comments{
+    width: 100%;
+    font-size: large;
+}
+#submit{
+    width :98%;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding:1%;
+    background: linear-gradient(#04b112ef,#89eb6c);
+    border-radius: 7px;
+    border: 0px;
+    color:rgb(255, 105, 36);
+}
+
+
+/*####### Media Query #######*/
+@media only screen and (max-width: 1000px){
+    #survey-form{
+        width:70%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #survey-form{
+        width:84%;
+        font-size: large;
+    }
+}
