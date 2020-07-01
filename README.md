@@ -7,6 +7,6 @@ Here there will be <a href="https://www.freecodecamp.org">freecodecamp</a> proje
  
   <a href="https://spkm2808.github.io/FreeCodeCamp/FullStackDevelopment/ResponsiveWebDevelopment/Tribute-Page">Tributepage </a>
 <br>
-<a href="https://spkm2808.github.io/FreeCodeCamp/FullStackDevelopment/ResponsiveWebDevelopment/Survey-fage">Survey-page </a>
+<a href="https://spkm2808.github.io/FreeCodeCamp/FullStackDevelopment/ResponsiveWebDevelopment/Survey-form">Survey-page </a>
 <br>
 
