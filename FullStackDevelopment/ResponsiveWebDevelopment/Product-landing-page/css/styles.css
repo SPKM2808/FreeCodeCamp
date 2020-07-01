@@ -95,12 +95,12 @@ header{
     transition-delay: 0.3s;
 }
 
-#vedio{
+#video{
     margin:auto;
     display:block;
 }
 
-#features,#vedio,#pricing,#register{
+#features,#video,#pricing,#register{
     margin-bottom: 40px;
     text-align: center;
 }
@@ -186,7 +186,7 @@ header{
         margin:auto 0;
     }
 
-    div #vedio{
+    div #video{
         width:100%;
     }
     .col-4 {
