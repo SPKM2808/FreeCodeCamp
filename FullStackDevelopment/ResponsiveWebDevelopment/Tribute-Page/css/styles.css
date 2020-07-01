@@ -1,0 +1,39 @@
+#main{
+    background: linear-gradient(rgba(161, 161, 161, 0.767),rgba(106, 131, 131, 0.699));
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #main header{
+     text-align: center;
+ }
+ #title{
+     font-size: 50px;
+     font-family: Verdana, sans-serif;
+ }
+ #img-div{
+     background-color: #fff;
+     text-align: center;
+     margin:10% 5%;
+     padding: 2%;
+ }
+ #image{
+     display: block;
+     margin:auto;
+     max-width: 80%;
+ }
+ 
+ 
+ #tribute-info{
+     margin :3%;
+ }
+ #tribute-info h2{
+     text-align: center;
+ }
+ 
+ #foot{
+     margin :2%;
+ }
+ #foot p{
+     font-weight:bold;
+     text-align: center;
+     font-size: large;
+ }
