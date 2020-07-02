@@ -9,4 +9,9 @@ Here there will be <a href="https://www.freecodecamp.org">freecodecamp</a> proje
 <br>
 <a href="https://spkm2808.github.io/FreeCodeCamp/FullStackDevelopment/ResponsiveWebDevelopment/Survey-form">Survey-page </a>
 <br>
+<a href="https://spkm2808.github.io/FreeCodeCamp/FullStackDevelopment/ResponsiveWebDevelopment/Product-landing-page">Product-landing-page </a>
+<br>
+<a href="https://spkm2808.github.io/FreeCodeCamp/FullStackDevelopment/ResponsiveWebDevelopment/Technical-Documentation-Page">Technical-Documentation-Page </a>
+<br>
+
 
